@@ -12,3 +12,7 @@ jobs:
       - name: Yell!
         run: |
           echo "YOU HAVE PUSHED TO THE REPO!"
+      
+      - name: What time is now?
+        run: |
+          date
