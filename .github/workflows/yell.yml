@@ -16,3 +16,7 @@ jobs:
       - name: What time is now?
         run: |
           date
+      
+      - name: Directory content
+        run: |
+          ls -l
