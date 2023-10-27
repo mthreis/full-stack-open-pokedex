@@ -1,0 +1,14 @@
+name: Yell at user!
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  yell_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Yell!
+        run: |
+          echo "YOU HAVE PUSHED TO THE REPO!"
